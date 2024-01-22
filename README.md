@@ -31,13 +31,13 @@ You might need to use `pip3` instead if you are using a MacBook.
 ## Implementing Your Turtle Drawing
 
 To create your turtle drawing:
-1. **The exercise of this interview is available**. Open your `cmd` prompt/terminal, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory you can run it by typing:
+1. **The exercise of this interview is available**. Open your `cmd` prompt/terminal, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory, you can run it by typing:
 ```bash
-python interview_exercise.py`
+python interview_exercise.py
 ```
 You might need to use `python3` instead if you are using a MacBook.
 2. Alternatively, you can edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately. You can run it from the root directory by typing `python my_turtle_template.py`.
-2. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
+3. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
 
 ## Running Examples
 
