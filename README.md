@@ -27,10 +27,10 @@ pip install matplotlib
 9. **Direct Navigation**: Provides a `goto` method for direct movement to specified coordinates, bypassing incremental steps.
 10. **Screen Boundary Enforcement**: The turtle's movements are constrained within defined screen limits, ensuring it stays within the visible area.
 
-## Implementing Your Own Turtle Drawing
+## Implementing Your Turtle Drawing
 
 To create your turtle drawing:
-1. Edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately.
+1. Edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately. You can run it from the root directory by typing `python my_turtle_template.py`.
 2. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
 3. **The exercise of this interview is available**. Open your `cmd` prompt, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory, type `python interview_exercise.py` to run it.
 
@@ -82,20 +82,16 @@ Replace `test_turtle` with `test_drawing` to run the tests for the drawing funct
 
 3. **Documentation**: Each class and method is well-documented with docstrings, comments, and annotations, providing clear descriptions and usage instructions. Readme files are also provided with brief explanations. *A full written documentation is under development*.
 
-4. **Error Handling**: Robust error handling is implemented to manage incorrect inputs and edge cases effectively.
+4. **Error Handling**: Robust error handling is implemented to manage incorrect inputs and edge cases effectively. Besides, the straightforward naming convention improves user experience.
 
 5. **Code Consistency**: Consistent naming conventions and coding styles are maintained throughout the project, ensuring uniformity.
 
 6. **Encapsulation**: The project uses encapsulation to hide complex implementation details, providing a simple interface for users.
 
-7. **Separation of Concerns**: Each class and method has a single, well-defined purpose, adhering to the Single Responsibility Principle (SRP).
+7. **Testing**: Comprehensive test cases cover various functionalities, ensuring the reliability and stability of the code.
 
-8. **Testing**: Comprehensive test cases cover various functionalities, ensuring the reliability and stability of the code.
+8. **Scalability and Flexibility**: The design allows for adding new features and functionalities easily.
 
-9. **Scalability and Flexibility**: The design allows for adding new features and functionalities easily.
-
-10. **Adherence to Standards**: The project follows standard programming practices and guidelines, such as PEP8 for Python.
-
-11. **User-Centric Design**: Focus on user experience and ease of use with a straightforward naming convention, making the project accessible to a wider audience.
+9. **Adherence to Standards**: The project follows standard programming practices and guidelines, such as PEP8 for Python. Besides, each class and method has a single, well-defined purpose, adhering to the Single Responsibility Principle (SRP).
 
 These practices enhance code quality by increasing readability, maintainability, and usability.
