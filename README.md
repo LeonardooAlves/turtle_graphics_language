@@ -31,7 +31,7 @@ You might need to use `pip3` instead if you are using a MacBook.
 ## Implementing Your Turtle Drawing
 
 To create your turtle drawing:
-1. **The exercise of this interview is available**. Open your `cmd` prompt/terminal, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory you run it by typing:
+1. **The exercise of this interview is available**. Open your `cmd` prompt/terminal, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory you can run it by typing:
 ```bash
 python interview_exercise.py`
 You might need to use `python3` instead if you are using a MacBook.
