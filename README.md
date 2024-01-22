@@ -20,19 +20,19 @@ pip install matplotlib
 2. **Directional Control**: The turtle can turn left or right, adjusting its heading angle.
 3. **Pen Control**: Offers the ability to lift or drop the pen, enabling or disabling drawing as the turtle moves.
 4. **Drawing Circles**: A dedicated method to draw circular arcs of specified radius and extent.
-5. **Customizable Appearance**: Users can change the turtle's line color and thickness, and the color of turtle's symbol representation on the canvas.
-6. **Position Tracking**: The turtle's current position can be retrieved, useful for complex drawings or tracking movements.
-7. **Drawing Data Storage**: The turtle keeps a record of its drawn paths for potential rendering or analysis.
+5. **Customisable Appearance**: Users can change the turtle's line colour and thickness and the colour of the turtle's symbol representation on the canvas.
+6. **Position Tracking**: The turtle's current position can be retrieved, which is useful for complex drawings or tracking movements.
+7. **Drawing Data Storage**: The turtle records its drawn paths for potential rendering or analysis.
 8. **Reset Functionality**: Allows resetting the turtle to its initial state, clearing its drawing history.
 9. **Direct Navigation**: Provides a `goto` method for direct movement to specified coordinates, bypassing incremental steps.
 10. **Screen Boundary Enforcement**: The turtle's movements are constrained within defined screen limits, ensuring it stays within the visible area.
 
 ## Implementing Your Own Turtle Drawing
 
-To create your own turtle drawing:
-1. Edit the `my_turtle_template.py` file in the root directory. This file is set up for you to start coding with the Turtle class immediately.
+To create your turtle drawing:
+1. Edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately.
 2. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
-3. **The exercise of this interview is available**. Open your `cmd` prompt, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory type `python interview_exercise.py` to run it.
+3. **The exercise of this interview is available**. Open your `cmd` prompt, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory, type `python interview_exercise.py` to run it.
 
 ## Running Examples
 
@@ -61,24 +61,18 @@ Replace `test_turtle` with `test_drawing` to run the tests for the drawing funct
 
 ## Next Steps: suggested modifications for students
 
-1. User Inputs for Turtle Movements:
+1. User Inputs for Turtle Movements: consider enhancing the system by allowing user inputs to define turtle movements. For example, using command-line inputs or GUI-based controls.
 
-Consider enhancing the system by allowing user inputs to define turtle movements. For example, using command-line inputs or GUI-based controls.
+2. Ensure that SOLID principles are followed for OOP implementations. Currently, this project follows only the Single-Responsability Principle (SRP). Adding other applicable principles, such as the Open-Closed Principle (OCP), is recommended. OCP will also bring OOP abstraction to the project.
 
-2. Ensure following the SOLID principles for OOP Implementations. Currently, this project follows only the Single-Responsability Principle (SRP). It is recommended adding other applicable principles, such as Open-Closed Principle (OCP). OCP will also brings OOP abstraction to the project.
+3. Write a comprehensive documentation covering setup, usage, examples, and detailed explanation of computational thinking.
 
-3. Write a compreenhise documentation covering setup, usage, examples, and detailed explanation of computational thinking.
-
-4. Optimisation Techniques:
-
-As the complexity of the drawings increases, consider implementing optimization techniques:
+4. Optimisation Techniques: as the complexity of the drawings increases, consider implementing optimisation techniques:
 - Batch processing of drawing commands.
 - Efficient data structures for storing line data.
 - Using GPU-based libraries for rendering.
 
-5. Alternative Graphics Methods:
-
-While currently using Matplotlib for graphics, exploring other libraries like Pygame, OpenCV or even web-based technologies like HTML5 Canvas (for a web version) could offer different capabilities and performance characteristics.
+5. Alternative Graphics Methods: while currently using Matplotlib for graphics, exploring other libraries like Pygame, OpenCV, or even web-based technologies like HTML5 Canvas (for a web version) could offer different capabilities and performance characteristics.
 
 ## Good Practices followed for this project to be kept for the next steps
 
@@ -98,10 +92,10 @@ While currently using Matplotlib for graphics, exploring other libraries like Py
 
 8. **Testing**: Comprehensive test cases cover various functionalities, ensuring the reliability and stability of the code.
 
-9. **Scalability and Flexibility**: The design allows for easy addition of new features and functionalities.
+9. **Scalability and Flexibility**: The design allows for adding new features and functionalities easily.
 
 10. **Adherence to Standards**: The project follows standard programming practices and guidelines, such as PEP8 for Python.
 
-11. **User-Centric Design**: Focus on user experience and ease of use, with straighforward naming convention, making the project accessible to a wider audience.
+11. **User-Centric Design**: Focus on user experience and ease of use with a straightforward naming convention, making the project accessible to a wider audience.
 
-These practices enhances code quality by increasing readability, maintainability, and usability.
+These practices enhance code quality by increasing readability, maintainability, and usability.
