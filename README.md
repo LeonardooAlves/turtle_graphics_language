@@ -2,7 +2,7 @@
 
 ## Project Description
 
-The Turtle Graphics Project is an implementation of a turtle graphics system, a key feature in many learning environments for programming. This system allows users to create drawings and patterns using simple commands that control a "turtle" on a canvas. This project is structured to offer both example scripts and a framework for users to create their own turtle-based drawings.
+The Turtle Graphics Project implements a turtle graphics system, a key feature in many learning environments for programming. This system allows users to create drawings and patterns using simple commands that control a "turtle" on a canvas. This project is structured to offer both example scripts and a framework for users to create their own turtle-based drawings.
 
 ## Requirements
 
@@ -13,6 +13,7 @@ To install the required library, run:
 ```bash
 pip install matplotlib
 ```
+You might need to use `pip3` instead if you are using a MacBook.
 
 ## Features of the Turtle Graphics Project
 
@@ -30,9 +31,12 @@ pip install matplotlib
 ## Implementing Your Turtle Drawing
 
 To create your turtle drawing:
-1. Edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately. You can run it from the root directory by typing `python my_turtle_template.py`.
+1. **The exercise of this interview is available**. Open your `cmd` prompt/terminal, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory you run it by typing:
+```bash
+python interview_exercise.py`
+You might need to use `python3` instead if you are using a MacBook.
+2. Alternatively, you can edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately. You can run it from the root directory by typing `python my_turtle_template.py`.
 2. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
-3. **The exercise of this interview is available**. Open your `cmd` prompt, navigate to the project's root directory using `cd /path/to/root_directory`, and from the root directory, type `python interview_exercise.py` to run it.
 
 ## Running Examples
 
