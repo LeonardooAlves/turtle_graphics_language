@@ -36,7 +36,9 @@ To create your turtle drawing:
 python interview_exercise.py
 ```
 You might need to use `python3` instead if you are using a MacBook.
+
 2. Alternatively, you can edit the `my_turtle_template.py` file in the root directory. This file is set up so you can start coding with the Turtle class immediately. You can run it from the root directory by typing `python my_turtle_template.py`.
+   
 3. Alternatively, you can create new Python files in the root directory. Make sure to import the Turtle class from the `turtle_graphics` package.
 
 ## Running Examples
